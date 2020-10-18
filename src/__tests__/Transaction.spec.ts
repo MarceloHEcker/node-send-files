@@ -107,6 +107,8 @@ describe('Transaction', () => {
       },
     });
 
+    console.log(category);
+
     expect(category).toBeTruthy();
 
     const transaction = await transactionsRepository.findOne({
